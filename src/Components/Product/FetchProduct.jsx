@@ -33,8 +33,9 @@ function FetchProduct() {
 
   return (
     <div className="container">
+ <h2>Product slider</h2>
     <div className="product-div">
-      <h2>Product slider</h2>
+     
       <Slider {...settings} >
         {product.map((product) => (
           <div key={product.id} className="items">
