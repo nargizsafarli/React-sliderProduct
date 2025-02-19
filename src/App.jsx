@@ -5,7 +5,6 @@ import FetchProduct from './Components/Product/FetchProduct'
 function App() {
   return (
     <div><FetchProduct/>
-    
     </div>
   )
 }
